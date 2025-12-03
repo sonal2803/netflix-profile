@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S-Flix Portfolio</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body class="profile-active">
+
+    <!-- ================= NAVBAR ================= -->
+    <header id="navbar">
+        <div class="logo">S-FLIX</div>
+
+        <nav>
+            <ul>
+                <li><a href="#main-home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#cocurricular">Co-Curricular</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= PROFILE SCREEN ================= -->
+    <section id="profile-screen" class="active">
+        <div class="profile-container">
+            <h1 class="who">Who's watching?</h1>
+
+            <div class="profiles">
+                <div class="profile-card" id="sonalProfile">
+                    <img src="assets/img/profile.jpg" alt="Profile Picture">
+                    <p>Sonal Panda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= MAIN HOME ================= -->
+    <section id="main-home">
+
+        <!-- HERO SECTION -->
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Sonal Panda</h1>
+                <h2 class="hero-subtitle">AI & ML • DRL • RAG • Blockchain</h2>
+
+                <p class="hero-description">
+                    Final-year B.Tech student in Computer Science (AIML specialization) with strong programming 
+                    and AI/ML skills. Experienced in deep learning, reinforcement learning, RAG systems and 
+                    ML development. Passionate about building impactful, scalable tech solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="hero-btn primary-btn" href="#projects">View Projects</a>
+                    <a class="hero-btn secondary-btn" href="resume/Sonal Panda - Resume.pdf" target="_blank">
+                        View Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-heading">Projects</h2>
+
+            <!-- ROW 1: WATERMARKING -->
+            <div class="project-category">
+                <h3 class="row-title">AI & ML — Watermarking</h3>
+
+                <div class="project-row">
+
+                    <article class="project-card"
+                        data-title="Content-Adaptive Watermarking"
+                        data-period="Aug 2025 – Sept 2025"
+                        data-location="Remote"
+                        data-mode="Research Project"
+                        data-github="https://github.com/sonal2803/video-watermarking"
+                        data-description="Developed a robust content-adaptive watermarking framework using DCT, CNN-GRU based detector,
+                        error-correcting codes, and adversarial robustness methods. Evaluated under distortions like
+                        compression, resizing and filtering.">
+                        
+                        <div class="project-tag">AI / ML / Security</div>
+                        <h4 class="project-name">Content-Adaptive Watermarking</h4>
+                        <p class="project-desc">DCT + CNN/GRU watermarking with ECC & adversarial training.</p>
+                        <button class="project-link open-modal">View Details</button>
+                    </article>
+
+                </div>
+            </div>
+
+            <!-- ROW 2: DRL -->
+            <div class="project-category">
+                <h3 class="row-title">Deep & Reinforcement Learning</h3>
+
+                <div class="project-row">
+
+                    <!-- Taichi Project -->
+                    <article class="project-card"
+                        data-title="Taichi-Based DQN Traffic Signal Control"
+                        data-period="Jan 2024 – April 2024"
+                        data-location="SRM University- Chennai"
+                        data-mode="Research Project"
+                        data-github="#"
+                        data-description="Built a Deep Q-Network (DQN) reinforcement learning agent using Taichi 
+                        fluid-dynamic simulation to model continuous vehicle density flow. Demonstrated 
+                        episodes-based adaptive traffic optimization with reduced waiting time.">
+                        
+                        <div class="project-tag">DRL / Taichi</div>
+                        <h4 class="project-name">Taichi DQN Traffic Control</h4>
+                        <p class="project-desc">Traffic optimization using Taichi fluid simulation & DQN.</p>
+                        <button class="project-link open-modal">View Details</button>
+                    </article>
+
+                    <!-- PSO Project -->
+                    <article class="project-card"
+                        data-title="Adam vs PSO for DRL Traffic Control"
+                        data-period="May 2025 – Apr 2025"
+                        data-location="Remote"
+                        data-mode="Research Publication"
+                        data-github="https://github.com/sonal2803/traffic-signal-drl"
+                        data-description="Compared Adam and Particle Swarm Optimization as training strategies 
+                        for DQN agents controlling adaptive traffic systems. Evaluated reward gains,
+                        throughput and learning stability over 20k episodes.">
+                        
+                        <div class="project-tag">DRL / PSO</div>
+                        <h4 class="project-name">Adam vs PSO</h4>
+                        <p class="project-desc">Optimizer comparison for DQN-based traffic systems.</p>
+                        <button class="project-link open-modal">View Details</button>
+                    </article>
+
+                </div>
+            </div>
+
+            <!-- ROW 3: HTML / CSS / JS -->
+            <div class="project-category">
+                <h3 class="row-title">HTML / CSS / JavaScript</h3>
+
+                <div class="project-row">
+
+                    <article class="project-card"
+                        data-title="S-Flix Portfolio Website"
+                        data-period="Dec 2025"
+                        data-location="Remote"
+                        data-mode="Frontend Development"
+                        data-github="#"
+                        data-description="A fully animated Netflix-styled portfolio with profile gate,
+                        scrolling project rows, section transitions, modals and custom UI/UX design.">
+                        
+                        <div class="project-tag">Frontend / Portfolio</div>
+                        <h4 class="project-name">S-Flix Portfolio Website</h4>
+                        <p class="project-desc">Netflix-inspired animated portfolio website.</p>
+                        <button class="project-link open-modal">View Details</button>
+                    </article>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ================= EXPERIENCE SECTION ================= -->
+<section id="experience" class="section-block">
+
+    <h2 class="section-title">Experience</h2>
+
+    <button class="arrow left-arrow" onclick="scrollExperience(-450)">&#10094;</button>
+
+    <div class="experience-row" id="experienceRow">
+
+        <!-- DRDO -->
+        <div class="experience-card slide-up exp-open-modal"
+            data-title="Research Intern — DRDO CABS, Bangalore"
+            data-period="Dec 2023 – Jan 2024"
+            data-location="Bangalore"
+            data-mode="On-site"
+            data-description="
+                • Applied satellite image analysis for precise object detection.<br>
+                • Implemented REDET + PCA with deep learning.<br>
+                • Worked with defense-grade reconnaissance data.<br>
+            "
+            data-certificate="assets/certificates/DRDO_Certificate.pdf">
+
+            <h3 class="exp-role">Research Intern</h3>
+            <p class="exp-company">DRDO – CABS, Bangalore</p>
+            <p class="exp-description">Satellite image analysis using REDET & PCA-DL.</p>
+
+            <button class="exp-btn exp-open-modal">View More</button>
+        </div>
+
+        <!-- IIT BBSR -->
+        <div class="experience-card slide-up exp-open-modal"
+            data-title="Research Intern — IIT Bhubaneswar"
+            data-period="May 2024 – July 2024"
+            data-location="Bhubaneswar"
+            data-mode="Hybrid"
+            data-description="
+                • Developed decentralized blockchain DApps.<br>
+                • Worked with MetaMask + Sepolia testnet.<br>
+                • Designed secure smart contract systems.<br>
+            "
+            data-certificate="assets/certificates/IIT_BBSR_Certificate.pdf">
+
+            <h3 class="exp-role">Research Intern</h3>
+            <p class="exp-company">IIT Bhubaneswar</p>
+            <p class="exp-description">Smart contracts, MetaMask, Sepolia, DApps.</p>
+
+            <button class="exp-btn exp-open-modal">View More</button>
+        </div>
+
+        <!-- OPENRAG -->
+        <div class="experience-card slide-up exp-open-modal"
+            data-title="AI Engineer Intern — OpenRAG.in"
+            data-period="Aug 2024 – Oct 2024"
+            data-location="Remote"
+            data-mode="Remote"
+            data-description="
+                • Contributed to RAG-based LLM development.<br>
+                • Applied agentic AI for autonomous reasoning.<br>
+                • Beta-tested Android app with feedback cycles.<br>
+            "
+            data-certificate="assets/certificates/OpenRAG_Certificate.pdf">
+
+            <h3 class="exp-role">AI Engineer Intern</h3>
+            <p class="exp-company">OpenRAG.in</p>
+            <p class="exp-description">LLM-based RAG systems & agentic AI workflows.</p>
+
+            <button class="exp-btn exp-open-modal">View More</button>
+        </div>
+
+        <!-- PERSONAL -->
+        <div class="experience-card slide-up exp-open-modal"
+            data-title="AI/ML Developer — Independent Projects"
+            data-period="2023 – 2025"
+            data-location="Chennai"
+            data-mode="Independent"
+            data-description="
+                • Built DRL agents for traffic signal control.<br>
+                • Developed content-adaptive watermarking models.<br>
+                • Created S-Flix Netflix-style portfolio website.<br>
+            "
+            data-certificate="">
+
+            <h3 class="exp-role">AI/ML Developer</h3>
+            <p class="exp-company">Independent Projects</p>
+            <p class="exp-description">Developed DRL, watermarking & portfolio systems.</p>
+
+            <button class="exp-btn exp-open-modal">View More</button>
+        </div>
+
+    </div>
+
+    <button class="arrow right-arrow" onclick="scrollExperience(450)">&#10095;</button>
+
+</section>
+
+
+        <!-- ================= SKILLS ================= -->
+        <section id="skills" class="skills-section">
+
+            <h2 class="skills-title">Skills</h2>
+
+            <h3 class="skills-row-title">Programming Languages</h3>
+            <div class="skills-row">
+                <div class="skill-card">C</div>
+                <div class="skill-card">C++</div>
+                <div class="skill-card">Java</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">MATLAB</div>
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">MySQL</div>
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+            </div>
+
+            <h3 class="skills-row-title">Tools & Technologies</h3>
+            <div class="skills-row">
+                <div class="skill-card">Git</div>
+                <div class="skill-card">GitHub</div>
+                <div class="skill-card">Blockchain</div>
+                <div class="skill-card">DSA</div>
+                <div class="skill-card">OOP</div>
+            </div>
+
+            <h3 class="skills-row-title">Operating Systems</h3>
+            <div class="skills-grid">
+                <div class="skill-card grid-card">Windows</div>
+                <div class="skill-card grid-card">Linux</div>
+            </div>
+
+            <h3 class="skills-row-title">Soft Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card grid-card">Public Speaking</div>
+                <div class="skill-card grid-card">Leadership</div>
+                <div class="skill-card grid-card">Communication</div>
+                <div class="skill-card grid-card">Agile Methodology</div>
+            </div>
+
+        </section>
+
+        <!-- ================= RESEARCH SECTION ================= -->
+<section id="research" class="research-section">
+
+    <h2 class="research-title">Research Publications</h2>
+
+    <div class="research-grid">
+
+        <!-- ICITSM 2025 PAPER -->
+        <div class="research-card">
+            <h3 class="pub-title">Episodes-Based Traffic Signal Control</h3>
+
+            <p class="pub-details">
+                <strong>Conference:</strong> ICITSM 2025<br>
+                <strong>Location:</strong> Tamil Nadu, India<br>
+                <strong>Pages:</strong> 8 pages<br>
+                <strong>Date:</strong> 28–29 April 2025
+            </p>
+
+            <p class="pub-desc">
+                Episodes-based Deep Reinforcement Learning model integrated with
+                fluid-dynamic simulation for adaptive traffic signal optimization.
+            </p>
+
+            <a href="https://eudl.eu/doi/10.4108/eai.28-4-2025.2357827" 
+               target="_blank" 
+               class="pub-btn">
+               View Publication
+            </a>
+        </div>
+
+        <!-- ICMEET 2025 PAPER -->
+        <div class="research-card">
+            <h3 class="pub-title">Adam vs PSO for DRL Traffic Control</h3>
+
+            <p class="pub-details">
+                <strong>Conference:</strong> ICMEET 2025 (Springer Proceedings)<br>
+                <strong>Location:</strong> London, UK<br>
+                <strong>Pages:</strong> 21 pages<br>
+                <strong>Status:</strong> Publication in Progress
+            </p>
+
+            <p class="pub-desc">
+                Comparative DRL optimizer study analyzing stability, convergence, 
+                and performance using Adam and Particle Swarm Optimization.
+            </p>
+
+            <a href="#" class="pub-btn disabled-btn">
+                Coming Soon
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- ================= AWARDS ================= -->
+        <section id="awards" class="awards-section">
+            <h2 class="awards-title">Awards</h2>
+
+            <div class="awards-grid">
+
+                <div class="award-card fade-in">
+                    <h3 class="award-name">Best Paper Award</h3>
+                    <p class="award-org">ICMEET 2025 — UK</p>
+                    <p class="award-desc">For DRL-based adaptive signal optimization.</p>
+                </div>
+
+                <div class="award-card fade-in">
+                    <h3 class="award-name">Dean’s Appreciation</h3>
+                    <p class="award-org">SRM University</p>
+                    <p class="award-desc">For major contributions to enrollment.</p>
+                </div>
+
+                <div class="award-card fade-in">
+                    <h3 class="award-name">Committee Head</h3>
+                    <p class="award-org">Aaruush — SRM Techno-Fest</p>
+                    <p class="award-desc">Leadership & event management.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= CO-CURRICULAR ================= -->
+        <section id="cocurricular" class="awards-section">
+
+            <h2 class="awards-title">Co-Curricular & Extra-Curricular Activities</h2>
+
+            <div class="awards-grid">
+
+                <div class="award-card fade-in">
+                    <h3 class="award-name">Co-Curricular Activities</h3>
+                    <p class="award-desc">
+                        • Presented at ICITSM 2025 (Tamil Nadu)<br>
+                        • Presented at ICMEET 2025 – Springer (London)<br><br>
+                        • Participated in hackathons & technical workshops.
+                    </p>
+                </div>
+
+                <div class="award-card fade-in">
+                    <h3 class="award-name">Extra-Curricular Activities</h3>
+                    <p class="award-desc">
+                        • Member — Computational Intelligence Club<br><br>
+                        • Committee Head — AARUUSH SRM Fest<br><br>
+                        • Volunteered at Chetana Blind School.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="contact-section">
+
+            <h2 class="contact-title">Contact</h2>
+
+            <div class="contact-grid">
+
+                <a href="mailto:sonalpanda28@gmail.com" class="contact-card fade-in">
+    <div class="contact-icon">📧</div>
+    <p class="contact-label">Email</p>
+    <p class="contact-value">sonalpanda28@gmail.com</p>
+</a>
+
+
+                <a href="https://www.linkedin.com/in/sonal-panda-5a2060251/" target="_blank"
+   class="contact-card fade-in">
+    <div class="contact-icon">💼</div>
+    <p class="contact-label">LinkedIn</p>
+    <p class="contact-value">linkedin.com/in/sonal-panda-5a2060251</p>
+</a>
+
+<a href="https://github.com/sonal2803" target="_blank" 
+   class="contact-card fade-in">
+    <div class="contact-icon">🐙</div>
+    <p class="contact-label">GitHub</p>
+    <p class="contact-value">github.com/sonal2803</p>
+</a>
+
+
+                <a href="resume/Sonal Panda - Resume.pdf" target="_blank" 
+                   class="contact-card fade-in">
+                    <div class="contact-icon">📄</div>
+                    <p class="contact-label">Resume</p>
+                    <p class="contact-value">Download PDF</p>
+                </a>
+
+            </div>
+
+        </section>
+
+       <!-- ================= PROJECT MODAL ================= -->
+<div id="projectModal" class="project-modal">
+    <div class="project-modal-content">
+
+        <span class="modal-close">&times;</span>
+
+        <h2 id="modalTitle" class="modal-title"></h2>
+
+        <p><strong>Period:</strong> <span id="modalPeriod"></span></p>
+        <p><strong>Location:</strong> <span id="modalLocation"></span></p>
+        <p><strong>Mode:</strong> <span id="modalMode"></span></p>
+
+        <p id="modalDescription" class="modal-desc"></p>
+
+        <a id="modalGithub" href="#" target="_blank" class="modal-github-btn">
+            🔗 View GitHub Repository
+        </a>
+
+    </div>
+</div>
+<!-- ================= EXPERIENCE MODAL ================= -->
+<div id="experienceModal" class="experience-modal">
+
+    <div class="experience-modal-content">
+        <span class="exp-modal-close">&times;</span>
+
+        <h2 id="expModalTitle"></h2>
+
+        <p><strong>Period:</strong> <span id="expModalPeriod"></span></p>
+        <p><strong>Location:</strong> <span id="expModalLocation"></span></p>
+        <p><strong>Mode:</strong> <span id="expModalMode"></span></p>
+
+        <p id="expModalDescription" class="exp-modal-desc"></p>
+
+        <a id="expModalCertificate" href="#" target="_blank"
+            class="exp-certificate-btn">📄 View Certificate</a>
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-logo">S-FLIX</h2>
+
+            <div class="footer-socials">
+                <a href="mailto:sonalpanda@gmail.com">📧</a>
+                <a href="https://www.linkedin.com/in/sonal-panda" target="_blank">💼</a>
+                <a href="https://github.com/sonalpanda" target="_blank">🐙</a>
+            </div>
+
+            <p class="footer-copy">© 2025 • Designed & Built by <span>Sonal Panda</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
