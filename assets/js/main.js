@@ -64,3 +64,31 @@ expClose.onclick = () => expModal.classList.remove("active");
 window.addEventListener("click", (event) => {
     if (event.target === expModal) expModal.classList.remove("active");
 });
+/* =========================================================
+   4) PROJECT MODAL — OPEN HANDLER
+========================================================= */
+
+const projectModal = document.getElementById("projectModal");
+const projectClose = document.querySelector(".modal-close");
+
+document.querySelectorAll(".open-modal").forEach(btn => {
+    btn.addEventListener("click", () => {
+        
+        const card = btn.closest(".project-card");
+
+        document.getElementById("modalTitle").innerText = card.dataset.title;
+        document.getElementById("modalPeriod").innerText = card.dataset.period;
+        document.getElementById("modalLocation").innerText = card.dataset.location;
+        document.getElementById("modalMode").innerText = card.dataset.mode;
+        document.getElementById("modalDescription").innerText = card.dataset.description;
+        document.getElementById("modalGithub").href = card.dataset.github;
+
+        projectModal.classList.add("active");
+    });
+});
+
+projectClose.onclick = () => projectModal.classList.remove("active");
+
+window.addEventListener("click", (event) => {
+    if (event.target === projectModal) projectModal.classList.remove("active");
+});
