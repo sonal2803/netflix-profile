@@ -64,28 +64,3 @@ expClose.onclick = () => expModal.classList.remove("active");
 window.addEventListener("click", (event) => {
     if (event.target === expModal) expModal.classList.remove("active");
 });
-/* =========================================================
-   6) MAKE BROWSER BACK / FORWARD BUTTON WORK FOR SCROLL
-========================================================= */
-
-// Observe scrolling to update URL hash automatically
-const sections = document.querySelectorAll("section[id]");
-
-const observer = new IntersectionObserver(
-    (entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                history.replaceState(null, "", `#${entry.target.id}`);
-            }
-        });
-    },
-    { threshold: 0.6 }
-);
-
-sections.forEach(section => observer.observe(section));
-window.addEventListener("hashchange", () => {
-    const target = document.querySelector(location.hash);
-    if (target) {
-        target.scrollIntoView({ behavior: "smooth" });
-    }
-});
