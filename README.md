@@ -1,8 +1,3 @@
-Here is a **clean, professional, emoji-free** README for your *Netflix-style portfolio*.
-It keeps the structure clear, recruiter-friendly, and modern.
-
----
-
 # S-Flix — Netflix-Inspired Developer Portfolio
 
 A Netflix-themed personal portfolio showcasing projects, internships, research work, skills, awards, and achievements.
@@ -166,13 +161,3 @@ Recommended:
 * GitHub Pages deployment
 * Optional blog section
 
----
-
-If you want, I can also:
-
-* Rewrite this to be more minimal or more recruiter-focused
-* Add a banner image for GitHub
-* Add shields/badges
-* Create a GitHub Pages deployment guide
-
-Just tell me!
