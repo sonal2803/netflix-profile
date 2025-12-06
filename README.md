@@ -1,151 +1,163 @@
-Here is a **clean, modern, professional README.md** for your Netflix-style portfolio — perfectly formatted, visually aesthetic, and recruiter-friendly.
-Just copy → paste → upload as `README.md` in your repo.
+# S-Flix — Netflix-Inspired Developer Portfolio
 
-# 🎬 **S-Flix — Netflix-Inspired Developer Portfolio**
+A Netflix-themed personal portfolio showcasing projects, internships, research work, skills, awards, and achievements.
+Built with HTML, CSS, and JavaScript using a custom UI and responsive layout.
 
-A cinematic, Netflix-themed personal portfolio showcasing projects, internships, research work, skills, awards, and achievements — built using **HTML, CSS, and JavaScript** with a custom UI/UX.
+---
 
-![S-FLIX Banner](https://imgur.com/8xG0tqF.png) <!-- optional banner, can remove -->
+## Live Demo
 
-## 🚀 **Live Demo**
+To be hosted on GitHub Pages.
 
-🔗 **Coming Soon** (To be hosted on GitHub Pages)
+---
 
-## 🎥 **Features**
+## Features
 
-✨ Netflix-style profile selection screen
-✨ Animated hero section
-✨ Horizontal scroll rows (like Netflix carousels)
-✨ Project details with modal pop-ups
-✨ Internship experience with certificate viewer
-✨ Research & publications section
-✨ Awards, skills, co-curriculars, contact section
-✨ Fully responsive, smooth transitions & 100% custom CSS
+* Netflix-style profile selection screen
+* Animated hero section
+* Horizontal scrolling project rows (Netflix carousel style)
+* Project modals with descriptions and GitHub links
+* Internship experience section with certificate viewer
+* Research publications section
+* Awards, skills, and co-curricular sections
+* Fully responsive layout with smooth transitions
+* 100% custom frontend (no frameworks)
 
-## 🛠️ **Tech Stack**
+---
 
-| Category        | Technologies                                |
-| --------------- | ------------------------------------------- |
-| **Frontend**    | HTML5, CSS3, Vanilla JavaScript             |
-| **Design & UI** | Custom CSS animations, Netflix-style layout |
-| **Deployment**  | GitHub Pages (optional)                     |
+## Tech Stack
 
+| Category   | Technologies                            |
+| ---------- | --------------------------------------- |
+| Frontend   | HTML5, CSS3, JavaScript                 |
+| UI/UX      | Custom CSS animations, Netflix-style UI |
+| Deployment | GitHub Pages (optional)                 |
 
-## 📂 **Project Structure**
+---
 
-Portfolio-Netflix/
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   ├── img/
-│   └── certificates/
-│
-├── index.html
+## Project Structure
+
+```
+netflix-profile/
+│── assets/
+│── css/
+│   └── style.css
+│── js/
+│   └── main.js
+│── img/
+│── certificates/
+│── index.html
 └── README.md
-
-## 🧑‍💻 **How to Run Locally**
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/sonal2803/netflix-profile.git
 ```
 
+---
+
+## Running the Portfolio Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sonal2803/netflix-profile.git
+   ```
 2. Open the project folder:
 
-```bash
-cd netflix-profile
-```
+   ```bash
+   cd netflix-profile
+   ```
+3. Run the portfolio by opening:
 
-3. Run the site by simply opening:
+   ```
+   index.html
+   ```
 
-```
-index.html
-```
+No dependencies or frameworks are required.
 
-No dependencies, no frameworks — just clean frontend code.
+---
 
+## Portfolio Sections
 
-## 📘 **Sections Included**
+### Profile Gate
 
-### 🔹 Profile Gate
+A Netflix-style “Who’s Watching?” entry screen.
 
-A Netflix-style entry screen: “Who’s Watching?”
+### Hero Section
 
-### 🔹 Hero Section
+Cinematic banner displaying your name and tagline.
 
-Cinematic banner with your name & tagline.
+### Projects
 
-### 🔹 Projects
-
-Organized in Netflix rows:
+Category-wise project rows with modal details, including:
 
 * Watermarking (AI/ML)
-* DRL / Taichi / PSO
-* Frontend Portfolio
+* Deep Reinforcement Learning (Taichi/PSO)
+* Frontend/Portfolio work
 
-Each project comes with:
+Each project includes:
 
-* View More modal
+* Description
+* Modal view
 * GitHub link
-* Full description
 
-### 🔹 Experience
+### Experience
 
-Internships with:
+Internship section with modal details, including:
 
 * DRDO
 * IIT Bhubaneswar
 * OpenRAG
-* Personal work
+* Personal projects
 
-Clickable modal shows:
+Each modal includes:
 
-* Period, Location, Mode
-* Detailed bullet points
+* Role, duration, and mode
+* Key contributions
 * Certificate viewer
 
-### 🔹 Publications
+### Publications
+
+Includes:
 
 * ICITSM 2025
-* ICMEET 2025 (Springer – in progress)
-  With clickable links.
+* ICMEET 2025 (Springer, in progress)
 
-### 🔹 Awards
+### Awards
 
-Beautiful animated cards.
+Animated award cards.
 
-### 🔹 Co-curricular & Extra-curricular
+### Co-Curricular & Extra-Curricular
 
-Clubs, volunteering, fest leadership, etc.
+Clubs, volunteering, and student leadership activities.
 
-### 🔹 Contact
+### Contact
 
 Email, LinkedIn, GitHub — all clickable.
 
-### 🔹 Footer
+### Footer
 
 Simple branded footer.
 
+---
 
-## 🔗 **Important Links**
+## Important Assets
 
-* DRDO Certificate
-* IIT BBSR Certificate
-* OpenRAG Certificate
-  (Add these under `/assets/certificates/`)
+Store certificates in:
 
+```
+assets/certificates/
+```
 
-## 📝 **Future Enhancements**
+Recommended:
+
+* DRDO certificate
+* IIT Bhubaneswar certificate
+* OpenRAG certificate
+
+---
+
+## Future Enhancements
 
 * Dark/Light mode
-* Add more projects dynamically
-* Deploy on GitHub Pages
-* Add a blog section
-
-
-
+* Dynamic project loading
+* GitHub Pages deployment
+* Optional blog section
 
